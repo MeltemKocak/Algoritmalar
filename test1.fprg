@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kocak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 10:34:40 &#214;&#214;"/>
+        <attribute name="created" value="a29jYWs7REVTS1RPUC00VlFTU0w0OzIwMjQtMDgtMDY7MDk6NTk6NTAgw5bDljszMTgy"/>
+        <attribute name="edited" value="a29jYWs7REVTS1RPUC00VlFTU0w0OzIwMjQtMDgtMDY7MTA6MzQ6NDAgw5bDljsxOzMyNzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, karsi, kupu" type="Integer" array="False" size=""/>
+            <output expression="&quot;sayi giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <output expression="&quot;karesi:&quot; &amp;(sayi*sayi)" newline="True"/>
+            <output expression="&quot;kupu:&quot; &amp;(sayi*sayi*sayi)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

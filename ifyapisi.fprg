@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kocak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 10:40:47 &#214;&#214;"/>
+        <attribute name="created" value="a29jYWs7REVTS1RPUC00VlFTU0w0OzIwMjQtMDgtMDY7MTA6MzQ6NDQgw5bDljszMTcw"/>
+        <attribute name="edited" value="a29jYWs7REVTS1RPUC00VlFTU0w0OzIwMjQtMDgtMDY7MTA6NDA6NDcgw5bDljsxOzMyNzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2" type="Integer" array="False" size=""/>
+            <assign variable="sayi1" expression="3"/>
+            <assign variable="sayi2" expression="5"/>
+            <if expression="sayi1&gt;sayi2">
+                <then>
+                    <output expression="&quot;girilen&quot; &amp;sayi1 &amp;&quot;girilen&quot; &amp;sayi2 &amp;&quot;den buyuktur&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;girilen &quot; &amp;sayi2 &amp;&quot; girilen &quot; &amp;sayi1 &amp;&quot; den buyuktur&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
